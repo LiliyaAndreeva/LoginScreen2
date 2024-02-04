@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		0605337129479DB200A3FCE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0605337029479DB200A3FCE7 /* AppDelegate.swift */; };
 		0605337329479DB200A3FCE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0605337229479DB200A3FCE7 /* SceneDelegate.swift */; };
-		0605337529479DB200A3FCE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0605337429479DB200A3FCE7 /* ViewController.swift */; };
-		0605337829479DB200A3FCE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0605337629479DB200A3FCE7 /* Main.storyboard */; };
+		0605337529479DB200A3FCE7 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0605337429479DB200A3FCE7 /* AuthViewController.swift */; };
 		0605337A29479DB400A3FCE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0605337929479DB400A3FCE7 /* Assets.xcassets */; };
 		0605337D29479DB400A3FCE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0605337B29479DB400A3FCE7 /* LaunchScreen.storyboard */; };
+		060533852947A5E900A3FCE7 /* CustomLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060533842947A5E900A3FCE7 /* CustomLable.swift */; };
+		060533872947AB1D00A3FCE7 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060533862947AB1D00A3FCE7 /* CustomButton.swift */; };
+		060533892949950700A3FCE7 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060533882949950700A3FCE7 /* LogInViewController.swift */; };
+		06A444D0294B8E1400F738B9 /* UIColor + Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A444CF294B8E1400F738B9 /* UIColor + Extentions.swift */; };
+		06A444D2294B92CA00F738B9 /* RegisterTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A444D1294B92CA00F738B9 /* RegisterTextField.swift */; };
+		729D23472B5A3761009B6F72 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D23462B5A3761009B6F72 /* EmailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0605336D29479DB200A3FCE7 /* LoginScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0605337029479DB200A3FCE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0605337229479DB200A3FCE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0605337429479DB200A3FCE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0605337729479DB200A3FCE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0605337429479DB200A3FCE7 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		0605337929479DB400A3FCE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0605337C29479DB400A3FCE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0605337E29479DB400A3FCE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		060533842947A5E900A3FCE7 /* CustomLable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLable.swift; sourceTree = "<group>"; };
+		060533862947AB1D00A3FCE7 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		060533882949950700A3FCE7 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		06A444CF294B8E1400F738B9 /* UIColor + Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extentions.swift"; sourceTree = "<group>"; };
+		06A444D1294B92CA00F738B9 /* RegisterTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTextField.swift; sourceTree = "<group>"; };
+		729D23462B5A3761009B6F72 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +68,42 @@
 			children = (
 				0605337029479DB200A3FCE7 /* AppDelegate.swift */,
 				0605337229479DB200A3FCE7 /* SceneDelegate.swift */,
-				0605337429479DB200A3FCE7 /* ViewController.swift */,
-				0605337629479DB200A3FCE7 /* Main.storyboard */,
+				06A444C9294ABC3700F738B9 /* ViewControllers */,
+				06A444C8294ABC1400F738B9 /* Custom */,
+				06A444CA294ABC6B00F738B9 /* Extentions */,
 				0605337929479DB400A3FCE7 /* Assets.xcassets */,
 				0605337B29479DB400A3FCE7 /* LaunchScreen.storyboard */,
 				0605337E29479DB400A3FCE7 /* Info.plist */,
 			);
 			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		06A444C8294ABC1400F738B9 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				060533842947A5E900A3FCE7 /* CustomLable.swift */,
+				060533862947AB1D00A3FCE7 /* CustomButton.swift */,
+				06A444D1294B92CA00F738B9 /* RegisterTextField.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		06A444C9294ABC3700F738B9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				060533882949950700A3FCE7 /* LogInViewController.swift */,
+				729D23462B5A3761009B6F72 /* EmailViewController.swift */,
+				0605337429479DB200A3FCE7 /* AuthViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		06A444CA294ABC6B00F738B9 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				06A444CF294B8E1400F738B9 /* UIColor + Extentions.swift */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +134,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
-				LastUpgradeCheck = 1410;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					0605336C29479DB200A3FCE7 = {
 						CreatedOnToolsVersion = 14.1;
@@ -127,7 +166,6 @@
 			files = (
 				0605337D29479DB400A3FCE7 /* LaunchScreen.storyboard in Resources */,
 				0605337A29479DB400A3FCE7 /* Assets.xcassets in Resources */,
-				0605337829479DB200A3FCE7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +176,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0605337529479DB200A3FCE7 /* ViewController.swift in Sources */,
+				06A444D2294B92CA00F738B9 /* RegisterTextField.swift in Sources */,
+				729D23472B5A3761009B6F72 /* EmailViewController.swift in Sources */,
+				0605337529479DB200A3FCE7 /* AuthViewController.swift in Sources */,
+				06A444D0294B8E1400F738B9 /* UIColor + Extentions.swift in Sources */,
 				0605337129479DB200A3FCE7 /* AppDelegate.swift in Sources */,
+				060533892949950700A3FCE7 /* LogInViewController.swift in Sources */,
 				0605337329479DB200A3FCE7 /* SceneDelegate.swift in Sources */,
+				060533852947A5E900A3FCE7 /* CustomLable.swift in Sources */,
+				060533872947AB1D00A3FCE7 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0605337629479DB200A3FCE7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0605337729479DB200A3FCE7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0605337B29479DB400A3FCE7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -202,6 +238,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -216,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -262,6 +299,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -270,7 +308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,9 +330,9 @@
 				INFOPLIST_FILE = LoginScreen/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +358,9 @@
 				INFOPLIST_FILE = LoginScreen/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
